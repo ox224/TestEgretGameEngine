@@ -8,7 +8,7 @@ class LoadingScene extends BaseScene{
         super.onEnter();
     }
 
-    public onEnter():void {
+    public onExit():void {
         super.onExit();
     }
 

@@ -5,7 +5,7 @@ class LoadingController extends BaseController{
         public constructor() {
                 super();
 
-                this.loadingView = new LoadingView()
+                this.loadingView = new LoadingView(this,LayerMan);
                 App.ViewManager
         }
 }

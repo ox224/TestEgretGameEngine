@@ -16,7 +16,7 @@ var LoadingScene = (function (_super) {
     LoadingScene.prototype.onEnter = function () {
         _super.prototype.onEnter.call(this);
     };
-    LoadingScene.prototype.onEnter = function () {
+    LoadingScene.prototype.onExit = function () {
         _super.prototype.onExit.call(this);
     };
     return LoadingScene;
